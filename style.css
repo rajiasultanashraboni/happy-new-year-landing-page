@@ -191,7 +191,6 @@ body{
 /* park hotel starts here */
 
 .park-hotel-container{
-    border: 2px solid red;
     max-width: 1320px;
     min-height: 482px;
     margin: 0 auto;
@@ -235,3 +234,106 @@ body{
     
 }
 
+/* coming soon starts here */
+
+.coming-soon-container{
+    max-width: 1320px;
+    min-height: 463px;
+    
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    
+}
+
+.comming-soon-content{
+     
+    width: 440px;
+    height: 255px;
+}
+
+.comming-first-p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 150px;
+}
+
+.comming-soon-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.comming-second-p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.comming-soon-img{
+    
+    width: 440px;
+    height: 300px;
+    
+}
+
+.comming-soon-img img{
+    border: 10px solid red;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 30px;
+    
+}
+
+.comming-soon-2024{
+    
+    width: 276px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+}
+
+.comming-soon-2024 h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 250px;
+
+}
+
+.comming-soon-2024 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 276px;
+}
+.comming-soon-2024 img{
+    width: 20%;
+    height: 40%;
+   
+}
