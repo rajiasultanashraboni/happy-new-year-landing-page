@@ -61,3 +61,63 @@ body{
 }
 
 /* banner section ends here */
+
+/* 65% starts here */
+
+.second-section-container{
+    max-width: 802.9px;
+    min-height: 700px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.second-image-container{
+    width: 802.9px;
+    height: 500px;
+}
+
+.second-image-container img{
+    height: 100%;
+    width: 100%;
+}
+
