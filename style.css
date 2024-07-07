@@ -13,11 +13,51 @@ body{
 }
 /* banner styles starts here */
 .banner-container{
-    width: 1320px;
-    height: 600px;
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('./new-year-offer-resources-main/images/Banner\ Image.png');
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(0, 0, 0,0.06); */
+    /* background-blend-mode: overlay; */
+    
 }
 
 .banner-content{
-    width: 632px;
-    background-image: url('./new-year-offer-resources-main/images/Banner\ Image.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    
+} 
+
+.banner-content p{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 259px;
+    height: 40px;
+    margin-bottom: 21px;
 }
+
+.banner-content h2{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 632px;
+}
+
+/* banner section ends here */
