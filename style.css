@@ -597,6 +597,7 @@ body{
 .contact{
     display: flex;
     color: white;
+    justify-content: center;
 }
 
 .left-section p{
